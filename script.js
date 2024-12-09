@@ -1,5 +1,5 @@
 function verificarTarjeta() {
-    const numero = document.getElementById('cardNumber').value.replace(/\D/g, ''); // Eliminar caracteres no numéricos
+    const numero = document.getElementById('cardNumber').value.replace(/\D/g, '');
 
     if (numero.length === 0) {
         alert("Por favor, ingresa un número de tarjeta.");
